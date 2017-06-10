@@ -53,4 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
+# this is where you 'draw the route' - in the config/routes.rb file.
+  get 'hello_world', to: 'static#hello_world'
 end
